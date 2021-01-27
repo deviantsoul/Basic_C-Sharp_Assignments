@@ -17,8 +17,9 @@ namespace Student_Daily_Report
             int pNumber = Convert.ToInt32(pageNumber);
             Console.WriteLine("You are currently at page " + pNumber + ".");
             Console.ReadLine();
-            Console.WriteLine("Do you need help with anything? Please answer \"true\" or \"false\".");
-            Console.ReadLine();
+            Console.WriteLine("Do you need help with anything?");
+            Console.WriteLine("Please enter True or False");
+            bool answer = Convert.ToBoolean(Console.ReadLine());
             Console.WriteLine("Thanks for letting us know.");
             Console.ReadLine();
             Console.WriteLine("Were there any positive experiences you'd like to share? Please give specifics.");
