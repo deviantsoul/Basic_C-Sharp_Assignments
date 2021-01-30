@@ -20,15 +20,15 @@ namespace Student_Daily_Report
             Console.WriteLine("Do you need help with anything?");
             Console.WriteLine("Please enter True or False");
             bool answer = Convert.ToBoolean(Console.ReadLine());
-            Console.WriteLine("Thanks for letting us know.");
+            Console.WriteLine("You replied " + answer + ". Thanks for letting us know.");
             Console.ReadLine();
             Console.WriteLine("Were there any positive experiences you'd like to share? Please give specifics.");
-            Console.ReadLine();
-            Console.WriteLine("Thanks for the response.");
+            string yourSpecifics = Console.ReadLine();
+            Console.WriteLine("You wrote: " + yourSpecifics + ". Thanks for the response.");
             Console.ReadLine();
             Console.WriteLine("Is there any other feedback you'd like to provide? Please be specific.");
-            Console.ReadLine();
-            Console.WriteLine("Thanks for your feedback.");
+            string yourFeedback = Console.ReadLine();
+            Console.WriteLine("You wrote: " + yourFeedback + ". Thanks for your feedback.");
             Console.ReadLine();
         }
     }
