@@ -30,6 +30,8 @@ namespace Student_Daily_Report
             string yourFeedback = Console.ReadLine();
             Console.WriteLine("You wrote: " + yourFeedback + ". Thanks for your feedback.");
             Console.ReadLine();
+            Console.WriteLine("Thank you for your answers. An Instructor will respond shortly. Have a great day!");
+            Console.ReadLine();
         }
     }
 }
