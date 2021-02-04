@@ -270,46 +270,46 @@ namespace Boolean_Logic
             //SWITCH statements ----------------------------------------
 
             //Will get the user's input and convert it to int
-            Console.WriteLine("Guess a number?");
-            int number = Convert.ToInt32(Console.ReadLine());
-            //Add bool for while loop
-            bool isGuessed = number == 12;
+            //Console.WriteLine("Guess a number?");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            ////Add bool for while loop
+            //bool isGuessed = number == 12;
 
-            //add do to have a feedback when isGuessed is true(12)
-            do
-            {
-                switch (number)
-                {
-                    case 62:
-                        Console.WriteLine("You guessed 62. Try again.");
-                        Console.WriteLine("Guess a number?");
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break;
-                    case 29:
-                        Console.WriteLine("You guessed 29. Try again.");
-                        Console.WriteLine("Guess a number?");
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break;
-                    case 55:
-                        Console.WriteLine("You guessed 55. Try again.");
-                        Console.WriteLine("Guess a number?");
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break;
-                    case 12:
-                        Console.WriteLine("You guessed the number 12. That is correct!");
-                        isGuessed = true;
-                        break;
-                    default:
-                        Console.WriteLine("You are wrong.");
-                        Console.WriteLine("Guess a number?");
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break;
-                }
-            }
-            //will keep guessing correct number
-            while (!isGuessed);
+            ////add do to have a feedback when isGuessed is true(12)
+            //do
+            //{
+            //    switch (number)
+            //    {
+            //        case 62:
+            //            Console.WriteLine("You guessed 62. Try again.");
+            //            Console.WriteLine("Guess a number?");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 29:
+            //            Console.WriteLine("You guessed 29. Try again.");
+            //            Console.WriteLine("Guess a number?");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 55:
+            //            Console.WriteLine("You guessed 55. Try again.");
+            //            Console.WriteLine("Guess a number?");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 12:
+            //            Console.WriteLine("You guessed the number 12. That is correct!");
+            //            isGuessed = true;
+            //            break;
+            //        default:
+            //            Console.WriteLine("You are wrong.");
+            //            Console.WriteLine("Guess a number?");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //    }
+            //}
+            ////will keep guessing correct number
+            //while (!isGuessed);
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
             //TUTORIAL STRINGS------------------------------------------------------------
             //string name = "Hansen";
@@ -333,13 +333,42 @@ namespace Boolean_Logic
             //Console.WriteLine(name);
             //Console.ReadLine();
 
-            StringBuilder sb = new StringBuilder();
+            //StringBuilder sb = new StringBuilder();
 
-            sb.Append("My name is Hansen");
+            //sb.Append("My name is Hansen");
 
-            Console.WriteLine(sb);
+            //Console.WriteLine(sb);
+            //Console.ReadLine();
+
+            int[] numArray = new int[5];
+            numArray[0] = 5;
+            numArray[1] = 2;
+            numArray[2] = 10;
+            numArray[3] = 200;
+            numArray[4] = 5000;
+
+            int[] numArray1 = new int[] { 5, 2, 10, 200, 5000 };
+
+            Console.WriteLine(numArray[3]);
             Console.ReadLine();
+
+            List<int> intList = new List<int>();
+            intList.Add(4);
+            intList.Add(10);
+
+            Console.WriteLine(intList[0]);
+            Console.ReadLine();
+
+            List<string> intList = new List<string>();
+            intList.Add("Hello.");
+            intList.Add("Hansen");
+            intList.Remove("Hansen");
+
+            Console.WriteLine(intList[0]);
+            Console.ReadLine();
+
+            byte[] byteArray = new byte[5000];
         }
     }
     }
-}
+
