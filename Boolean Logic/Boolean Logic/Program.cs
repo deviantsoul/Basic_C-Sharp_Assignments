@@ -13,6 +13,7 @@ namespace Boolean_Logic
             Console.ReadLine();
             Console.WriteLine("Have you ever had a DUI? Please answer Yes or No.");
             Console.ReadLine();
+            string DUI = Console.ReadLine();
             bool Yes = true;
             bool No = false;
             Console.WriteLine("How many speeding tickets do you have?");
