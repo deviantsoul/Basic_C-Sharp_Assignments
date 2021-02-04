@@ -310,6 +310,36 @@ namespace Boolean_Logic
             while (!isGuessed);
 
             Console.ReadLine();
+
+            //TUTORIAL STRINGS------------------------------------------------------------
+            //string name = "Hansen";
+            //string quote = "The man said, \"Hello\", " + name + ". \n Hello on a new line. \n \t Hello on a tab.";
+            //string filename = "C:\\users\\Hansen";
+            ////@ is used to tell the script that inbetween quotation marks are part of the script
+            //string atFilename = @"C:\users\Hansen";
+            //bool trueOrfalse = name.Contains("n");
+            //trueOrfalse = name.EndsWith("s");
+
+            ////to search for properties of a string or number
+            //int length = name.Length;
+
+            //name = name.ToUpper();
+
+            //Console.WriteLine(filename);
+            //Console.WriteLine(atFilename);
+            //Console.WriteLine(quote);
+            //Console.WriteLine(trueOrfalse);
+            //Console.WriteLine(length);
+            //Console.WriteLine(name);
+            //Console.ReadLine();
+
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append("My name is Hansen");
+
+            Console.WriteLine(sb);
+            Console.ReadLine();
         }
+    }
     }
 }
