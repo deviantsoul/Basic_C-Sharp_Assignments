@@ -340,34 +340,37 @@ namespace Boolean_Logic
             //Console.WriteLine(sb);
             //Console.ReadLine();
 
-            int[] numArray = new int[5];
-            numArray[0] = 5;
-            numArray[1] = 2;
-            numArray[2] = 10;
-            numArray[3] = 200;
-            numArray[4] = 5000;
+            //int[] numArray = new int[5];
+            //numArray[0] = 5;
+            //numArray[1] = 2;
+            //numArray[2] = 10;
+            //numArray[3] = 200;
+            //numArray[4] = 5000;
 
-            int[] numArray1 = new int[] { 5, 2, 10, 200, 5000 };
+            //int[] numArray1 = new int[] { 5, 2, 10, 200, 5000 };
 
-            Console.WriteLine(numArray[3]);
-            Console.ReadLine();
+            //Console.WriteLine(numArray[3]);
+            //Console.ReadLine();
 
-            List<int> intList = new List<int>();
-            intList.Add(4);
-            intList.Add(10);
+            //List<int> intList = new List<int>();
+            //intList.Add(4);
+            //intList.Add(10);
 
-            Console.WriteLine(intList[0]);
-            Console.ReadLine();
+            //Console.WriteLine(intList[0]);
+            //Console.ReadLine();
 
-            List<string> intList = new List<string>();
-            intList.Add("Hello.");
-            intList.Add("Hansen");
-            intList.Remove("Hansen");
+            //List<string> intList = new List<string>();
+            //intList.Add("Hello.");
+            //intList.Add("Hansen");
+            //intList.Remove("Hansen");
 
-            Console.WriteLine(intList[0]);
-            Console.ReadLine();
+            //Console.WriteLine(intList[0]);
+            //Console.ReadLine();
 
-            byte[] byteArray = new byte[5000];
+            //byte[] byteArray = new byte[5000];
+
+            int[] myArray = new int[10];
+            
         }
     }
     }
